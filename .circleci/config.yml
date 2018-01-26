@@ -11,7 +11,7 @@ jobs:
 					command: HUGO_ENV=production hugo -v -s ~/project/
 
 workflows:
-	version:2
+	version: 2
 	build-deploy:
 		jobs:
-			-build-job
+			- build-job
