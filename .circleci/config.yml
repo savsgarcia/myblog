@@ -2,7 +2,7 @@ version: 2
 jobs:
 	build-job:
 		docker:
-			- image:cbuild/hugo:latest
+			- image: cbuild/hugo:latest
 		working_directory: ~/project
 		steps:
 			- checkout
